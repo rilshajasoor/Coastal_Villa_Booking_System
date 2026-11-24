@@ -69,17 +69,4 @@ includes/header.php
 includes/footer.php
 
 
-NEW FEATURES ADDED
-- Photo Gallery: gallery.php displays room, facility and surrounding-area photos. Click a photo to enlarge it. Photos are loaded from Unsplash, so an internet connection is required. Replace the sample photos with your own villa photos before final submission.
-- Interactive Location Map: location.php embeds a Google map and provides a directions link.
-- Homepage now links visitors to the gallery and location map.
-
-SET YOUR REAL VILLA LOCATION
-1. Open config.php in a code editor.
-2. Find VILLA_MAP_QUERY near the bottom.
-3. Replace 'Coastline Villa, Sri Lanka' with your real villa address or exact Google Maps place name.
-4. Save the file and refresh location.php.
-
-NEW PAGES
-gallery.php  - Photo gallery with clickable enlarged images
-location.php  - Interactive map and Google Maps directions
+**Done by:** MJ Fathima Rilsha

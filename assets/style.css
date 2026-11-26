@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;
-    500;
-    600;
-    700&family=Playfair+Display:wght@600;
-    700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
     :root {
     --navy:#173b43;
     --teal:#2f7775;
@@ -112,14 +109,19 @@ a {
 }
 
 .hero {
-    min-height:440px;
-    border-radius:18px;
-    overflow:hidden;
-    background:linear-gradient(90deg,#102f35dc,#102f3540),url('https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1800&q=85') center/cover;
-    display:flex;
-    align-items:center;
-    padding:60px;
-    color:#fff
+    min-height: 440px;
+    border-radius: 18px;
+    overflow: hidden;
+
+    background:
+        linear-gradient(90deg, #102f35dc, #102f3540),
+        url('https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1800&q=85')
+        center/cover;
+
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    color: #fff;
 }
 
 .hero-content {

@@ -6,8 +6,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?= e($page_title ?? SITE_NAME) ?> | <?= SITE_NAME ?></title>
-  <link rel="stylesheet" href="assets/style.css">
-  <script defer src="assets/app.js"></script>
+  <link rel="stylesheet" href="/coastline_villa_booking_system/assets/style.css?v=2">
+  <script defer src="/coastline_villa_booking_system/assets/app.js?v=2"></script>
 </head>
 <body>
 <header class="site-header">
